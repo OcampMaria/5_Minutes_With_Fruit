@@ -1,11 +1,11 @@
 import React from "react";
-import AudioPlayer from './components/Audio';
 import "./App.css";
+import AudioPlayer from "./components/AudioPlayer";
 
 function App() {
   return (
     <div>
-      <Playlist />
+      <AudioPlayer />
     </div>
   );
 }
